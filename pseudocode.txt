@@ -1,0 +1,41 @@
+Odin Project - Rock, Paper, Scissors
+
+Goal: Create a basic web application to play Rock, Paper, and Scissors
+
+Constraints:
+  - Create a function called getComputerChoice for a "computer" player
+  - Function with inputs "playerSelection" and "computerSelection"
+  - Declare who wins, example: "You lose! Paper beats Rock"
+  - Make the parameter of the function case-insensitive
+  - The length of the game is 5 rounds (best of 5)
+
+Pseudo Code:
+
+Rock beats Scissors
+Scissors beats Paper
+Paper beats rocks
+
+A simple if statement or switch should be able to handle this. Can create
+a function called checkResult(playerSelection, computerSelection).
+
+getComputerChoice should be a random function that provides a value between
+1 - 3. Each value will be rock/paper/Scissors.
+
+playerSelection should be gathered with a prompt().
+
+A while loop can be used to cover the length of the game. When the player
+or the computer hits 3 then the game is over. Check if computerWins or playerWins
+is equal to 5 to break() the loop.
+
+Then the results can be displayed on the page using a function or alert.
+
+Functions to make:
+  - checkResult: Determines who won, should update and return a list [computerWin, playerWin]
+  - getComputerChoice: Outputs the computerSelection input
+  - game: Starts and manages a 5 round game and uses the above functions, exits on 3 distinct wins
+
+Game Theme Ideas:
+  - Star Wars
+  - 8Bit
+  - Elements
+  - Kung Fu/Street Fighter/Mortal Kombat/Smash Bros <-
