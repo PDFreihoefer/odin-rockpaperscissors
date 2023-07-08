@@ -5,12 +5,9 @@ function getComputerChoice() {
   switch (randomInt) {
     case 0:
       return 'ROCK';
-      break;
     case 1:
       return 'PAPER';
-      break;
     case 2:
       return 'SCISSORS';
-      break;
   }
 }
