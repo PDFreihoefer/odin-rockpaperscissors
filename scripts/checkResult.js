@@ -5,11 +5,11 @@ function checkResult(playerChoice, computerChoice) {
   // we can support any spelling: 'rOck', 'Rock', 'ROCk'. JS is case-sensitive
   
   // Handle all ties immediately
-  if (playerChoice.toUpperCase == computerChoice) {
+  if (playerChoice.toUpperCase() == computerChoice) {
     return 'tie'
   }
 
-  switch (playerChoice.toUpperCase) {
+  switch (playerChoice.toUpperCase()) {
     case 'ROCK':
       return computerChoice == 'SCISSORS' ? 'playerWin' : 'computerWin';
     case 'PAPER':
