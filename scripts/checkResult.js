@@ -3,7 +3,7 @@
 function checkResult(playerChoice, computerChoice) {
   // Computer choice is always uppercase, but we want to edit the player choice to ensure that
   // we can support any spelling: 'rOck', 'Rock', 'ROCk'. JS is case-sensitive
-  
+
   // Handle all ties immediately
   if (playerChoice.toUpperCase() == computerChoice) {
     return 'tie'
